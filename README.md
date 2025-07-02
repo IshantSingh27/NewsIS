@@ -6,24 +6,26 @@
 
 ## 📁 Project Structure
 
-newsIS/
-├── public/
-│ ├── Breaking-News.jpeg # Fallback image for articles
-│ └── news.jpg # Logo used in navbar
-│
-├── src/
-│ ├── components/
-│ │ ├── Navbar/
-│ │ │ └── Navbar.js # Navigation bar
-│ │ │ └── Navbar.css # Navbar styling
-│ │ ├── News.js # Core logic to fetch and render news
-│ │ ├── NewsItem.js # Card for displaying each news article
-│ │ └── spinner.js # Loading spinner component
-│ ├── App.js # Routing and layout
-│ └── index.js # React root
-│
-├── package.json
-└── README.md
+- `public/`
+  - `Breaking-News.jpeg` – Default image for articles without one
+  - `news.jpg` – Logo displayed in the navbar
+
+- `src/`
+  - `components/`
+    - `Navbar/`
+      - `Navbar.js` – Navigation bar component
+      - `Navbar.css` – Styling for the navbar
+    - `News.js` – Handles fetching and displaying news articles
+    - `NewsItem.js` – Displays individual news cards
+    - `spinner.js` – Shows a loading spinner when data is loading
+  - `App.js` – Main app component with routing setup
+  - `index.js` – React app entry point
+
+- `.env.local` – Stores the News API key (kept private)
+- `.gitignore` – Lists files/folders to be ignored by Git
+- `package.json` – Contains project metadata and dependencies
+- `README.md` – This file with all project info
+
 
 ---
 
