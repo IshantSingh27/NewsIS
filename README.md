@@ -51,57 +51,57 @@
 
 ---
 
-💻 Getting Started
-1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/your-username/newsIS.git
-cd newsIS
-2. Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Start the development server
-bash
-Copy
-Edit
-npm start
-Visit: http://localhost:3000
+## 💻 Getting Started
+**1. Clone the repo**
+- bash
+- Copy
+- Edit
+- git clone https://github.com/your-username/newsIS.git
+- cd newsIS
+**2. Install dependencies**
+- bash
+- Copy
+- Edit
+- npm install
+**3. Start the development server**
+- bash
+- Copy
+- Edit
+- npm start
+- Visit: http://localhost:3000
 
-🛠 Available Routes
-These are handled via React Router:
+## 🛠 Available Routes
+**These are handled via React Router:**
 
-/ → General
+- / → General
 
-/business
+- /business
 
-/entertainment
+- /entertainment
 
-/health
+- /health
 
-/science
+- /science
 
-/sports
+- /sports
 
-/technology
+- /technology
 
-📦 Deployment
-You can deploy on:
+## 📦 Deployment
+**You can deploy on:**
 
-Netlify
+- Netlify
 
-Vercel
+- Vercel
 
-GitHub Pages
+- GitHub Pages
 
-To build for production:
+**To build for production:**
 
-bash
-Copy
-Edit
-npm run build
+- bash
+- Copy
+- Edit
+- npm run build
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
+**This project is licensed under the MIT License.**
