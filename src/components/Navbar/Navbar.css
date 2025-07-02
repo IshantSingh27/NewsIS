@@ -1,0 +1,12 @@
+/* Hover effect */
+.navbar-dark .nav-link:hover {
+  color: #00d4ff !important; /* Light blue */
+  transition: color 0.5s ease;
+}
+
+/* Active link (clicked/current route) */
+.active-nav {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
