@@ -21,7 +21,6 @@
   - `App.js` – Main app component with routing setup
   - `index.js` – React app entry point
 
-- `.env.local` – Stores the News API key (kept private)
 - `.gitignore` – Lists files/folders to be ignored by Git
 - `package.json` – Contains project metadata and dependencies
 - `README.md` – This file with all project info
