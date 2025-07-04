@@ -4,7 +4,11 @@ const NewsItem = (props) => {
     <div className="my-3">
       <div className="card" >
         <span className="badge rounded-pill bg-secondary" style={{ display: 'flex', justifyContent: 'flex-end', position: 'absolute', right: '0', top: '-10px' }}>{source}</span>
-        <img src={imageurl ? imageurl : "/Breaking-News.jpeg"} className="card-img-top" alt="..." />
+        <img
+          src={imageurl ? imageurl : `${process.env.PUBLIC_URL}/Breaking-News.jpeg`}
+          className="card-img-top"
+          alt="news"
+        />
         <div className="card-body">
           <h5 className="card-title">{title}...</h5>
           <p className="card-text">{description}...</p>

@@ -36,7 +36,7 @@ const Navbar = () => {
             </ul>
             {/* Image aligned to the right */}
             <img
-              src="/news.jpg" // from public folder
+              src={`${process.env.PUBLIC_URL}/news.jpg`} // from public folder
               alt="News Logo"
               className="img-fluid ms-auto d-none d-lg-block"
               style={{ height: '40px', borderRadius: '5px' }}
