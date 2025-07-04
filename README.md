@@ -6,24 +6,25 @@
 
 ## 📁 Project Structure
 
-newsIS/
-├── public/
-│ ├── Breaking-News.jpeg # Fallback image for articles
-│ └── news.jpg # Logo used in navbar
-│
-├── src/
-│ ├── components/
-│ │ ├── Navbar/
-│ │ │ └── Navbar.js # Navigation bar
-│ │ │ └── Navbar.css # Navbar styling
-│ │ ├── News.js # Core logic to fetch and render news
-│ │ ├── NewsItem.js # Card for displaying each news article
-│ │ └── spinner.js # Loading spinner component
-│ ├── App.js # Routing and layout
-│ └── index.js # React root
-│
-├── package.json
-└── README.md
+- `public/`
+  - `Breaking-News.jpeg` – Default image for articles without one
+  - `news.jpg` – Logo displayed in the navbar
+
+- `src/`
+  - `components/`
+    - `Navbar/`
+      - `Navbar.js` – Navigation bar component
+      - `Navbar.css` – Styling for the navbar
+    - `News.js` – Handles fetching and displaying news articles
+    - `NewsItem.js` – Displays individual news cards
+    - `spinner.js` – Shows a loading spinner when data is loading
+  - `App.js` – Main app component with routing setup
+  - `index.js` – React app entry point
+
+- `.gitignore` – Lists files/folders to be ignored by Git
+- `package.json` – Contains project metadata and dependencies
+- `README.md` – This file with all project info
+
 
 ---
 
@@ -50,57 +51,57 @@ newsIS/
 
 ---
 
-💻 Getting Started
-1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/your-username/newsIS.git
-cd newsIS
-2. Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Start the development server
-bash
-Copy
-Edit
-npm start
-Visit: http://localhost:3000
+## 💻 Getting Started
+**1. Clone the repo**
+- bash
+- Copy
+- Edit
+- git clone https://github.com/your-username/newsIS.git
+- cd newsIS
+**2. Install dependencies**
+- bash
+- Copy
+- Edit
+- npm install
+**3. Start the development server**
+- bash
+- Copy
+- Edit
+- npm start
+- Visit: http://localhost:3000
 
-🛠 Available Routes
-These are handled via React Router:
+## 🛠 Available Routes
+**These are handled via React Router:**
 
-/ → General
+- / → General
 
-/business
+- /business
 
-/entertainment
+- /entertainment
 
-/health
+- /health
 
-/science
+- /science
 
-/sports
+- /sports
 
-/technology
+- /technology
 
-📦 Deployment
-You can deploy on:
+## 📦 Deployment
+**You can deploy on:**
 
-Netlify
+- Netlify
 
-Vercel
+- Vercel
 
-GitHub Pages
+- GitHub Pages
 
-To build for production:
+**To build for production:**
 
-bash
-Copy
-Edit
-npm run build
+- bash
+- Copy
+- Edit
+- npm run build
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
+**This project is licensed under the MIT License.**
