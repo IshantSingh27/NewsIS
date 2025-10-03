@@ -1,1 +1,7 @@
-
+/* index.css or App.css */
+body {
+  background: url("./bg.webp");/* since it's in src */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* stays fixed while scrolling */
+}

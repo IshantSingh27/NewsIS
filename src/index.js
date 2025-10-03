@@ -7,7 +7,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/NewsIS"> {/* or "/My-Portfolio" if that's your repo */}
+    <BrowserRouter basename="/NewsIS"> 
       <App />
     </BrowserRouter>
   </React.StrictMode>
